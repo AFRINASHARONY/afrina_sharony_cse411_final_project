@@ -31,7 +31,7 @@
           ></v-menu>
         </div>
       </v-row>
-      <StaffsTable :staffs="admins" />
+      <StaffsTable :staffs="employee" />
     </v-container>
   </v-sheet>
 </template>
@@ -44,9 +44,9 @@ export default {
   name: "Dashboard",
   data() {
     return {
-      items: ["admin", "employee"],
+      items: ["employee"],
       linkItems: [
-        { title: "Admin", link: "/create/admin" },
+        { title: "Employee", link: "/create/employee" },
       ],
     };
   },
