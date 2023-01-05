@@ -218,7 +218,7 @@ export default {
       this.showDeleteSnackbar = true;
       this.$store.dispatch("deleteStaff", id);
       this.$router.push({
-        name: "staff",
+        name: "home",
       });
     },
     reset() {

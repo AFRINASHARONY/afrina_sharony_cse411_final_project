@@ -147,7 +147,7 @@ export default {
       }
     },
     navigateToStaffPage() {
-      this.$router.push("/staff");
+      this.$router.push("/");
       this.showSnackbar = false;
     },
   },
